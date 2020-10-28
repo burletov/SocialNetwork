@@ -1,26 +1,35 @@
 .app-wrapper {
     margin: 0 auto;
     display: grid;
-    width: 1200px;
+    max-width: 1200px;
     grid-template-areas: "h h" "n c";
 
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
     /* grid-gap: 10px; */
+    background-color: whitesmoke;
+}
+
+@media (max-width: 1200px) {
+    .app-wrapper {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .app-wrapper {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .app-wrapper {
+        max-width: none;
+    }
 }
 
 .app-wrapper-content {
     grid-area: c;
-    background-color: blueviolet;
+    background-color: whitesmoke;
 }
 
-
-/*
-
-/messages
-/dialogs
-
-/dialogs/3
-/dialogs/2
-
-*/

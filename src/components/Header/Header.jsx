@@ -4,7 +4,6 @@ import {NavLink} from "react-router-dom";
 
 const Header = (props) => {
     return <header className={s.header}>
-        <img src='https://www.pngfind.com/pngs/m/401-4010200_file-rhcp-logo-svg-.png'/>
 
         <div className={s.loginBlock}>
             {props.isAuth

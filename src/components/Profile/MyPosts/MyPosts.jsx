@@ -7,7 +7,7 @@ import {Textarea} from "../../common/FormsControls/FormsControls";
 
 const maxLength10 = maxLengthCreator(10);
 
-let AddNewPostForm = (props) => {
+const AddNewPostForm = (props) => {
     return <form onSubmit={props.handleSubmit}>
         <div>
             <Field name="newPostText" component={Textarea} placeholder={"Post message"}

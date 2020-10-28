@@ -9,3 +9,30 @@
 .contact {
     padding-left: 10px;
 }
+
+.info {;
+}
+
+.status {;
+}
+
+.choosePhoto {
+    display: block;
+    padding-left: 65px;
+    padding-right: 65px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+
+}
+
+.choosePhoto:hover {
+    color: black;
+    background: whitesmoke;
+    cursor: pointer;
+}
